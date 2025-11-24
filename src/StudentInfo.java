@@ -20,7 +20,7 @@ public class StudentInfo {
         System.out.print("Enter age : ");
         age = input.nextInt();
 
-        // condition checking for score and show grade
+        // condition checking to score for grade
         if( score >= 90 ){
             grade = "Grade A";
         }else if ( score >= 80 ) {
@@ -33,7 +33,7 @@ public class StudentInfo {
             grade = "Grade F";
         }
 
-        // condition checking for age and show status
+        // condition checking to age for status
         if ( age >= 18 ){
             status = "Adult Student";
         }else{
