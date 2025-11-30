@@ -21,7 +21,7 @@ public class FormulaSolution {
         //circle area calculation
         area = Math.PI * Math.pow(radius,2);
 
-        // circle volume calculation
+        // sphere volume calculation
         volume = (4.0/3.0) * Math.PI * Math.pow(radius,3);
 
         //showing answers
